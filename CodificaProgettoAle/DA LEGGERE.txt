@@ -1,0 +1,8 @@
+Il testo per generare l'output dal prompt dei comandi con la cartella posizionata sul desktop è il seguente :
+
+java -cp "C:\Users\Utente\Desktop\CodificaProgettoAle\*;" net.sf.saxon.Transform -s:C:\Users\Utente\Desktop\CodificaProgettoAle\DIARIO.xml -xsl:C:\Users\Utente\Desktop\CodificaProgettoAle\stylediario.xsl -o:C:\Users\Utente\Desktop\CodificaProgettoAle\output.html
+
+per la validazione: /mnt/c/Users/Utente/Desktop/CodificaProgettoAle$ xmllint --noout --valid DIARIO.xml
+
+
+

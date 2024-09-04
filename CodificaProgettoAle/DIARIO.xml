@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylediario.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!-- Author: Alessandro Arquint
+     Date: 2024 Settembre 9
+     Title: Progetto Codifica -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader> 
+ <fileDesc>  
+    <titleStmt> 
+        <title xml:lang="it"> DIARI DI EMANUELE ARTOM </title>
+        <title type="sub"><date from="1943-11--" to="1944-02--"> Novembre 1943 - Febbraio 1944 </date></title>
+         <author ref="#EA"> Emanuele Artom </author>
+    </titleStmt>
+
+<!--responsabilità per il lavoro del testo in digitale-->
+ 
+            <editionStmt>
+                <edition> Edizione digitale 
+                    <date when="2024-02"> febbraio 2024 </date> 
+                </edition>
+                <respStmt> 
+                    <resp> Progetto coordinato da </resp> 
+                    <name xml:id="AMDG"> Angelo Mario Del Grosso </name>                                         
+                </respStmt>
+                <respStmt>  
+                    <resp> Codifica a cura di </resp>
+                    <name xml:id="AA"> Alessandro Arquint </name> 
+                </respStmt>
+            </editionStmt>
+ 
+<!-- descrizione della pubblicazione --> 
+                <publicationStmt>
+                    <publisher ref="#Unipi"> Università di Pisa </publisher>
+                    <pubPlace> Pisa </pubPlace>
+                    <availability status="free"><p>Opera di libero accesso</p></availability>   
+                    <date when="2024-05"> Settembre 2024 </date> 
+                </publicationStmt>
+ 
+<!-- informazioni sulle fonti -->   
+           <sourceDesc> 
+                <msDesc> 
+                    <msIdentifier> 
+                        <country key="IT" type="nation"> Italia </country>
+                        <settlement> Milano </settlement>
+                        <repository role="institute" xml:lang="it" ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000001/Fondo+Emanuele+Artom.html"><orgName ref="#CDEC"> Centro di Documentazione Ebraica Contemporanea</orgName> </repository>
+                        <collection> Fondo Emanuele Artom </collection>
+                        <idno type="inventory">	b. 1, fasc. 9 </idno>
+                    </msIdentifier>
+                    <msContents> 
+                        <msItem> 
+                            <author xml:lang="it"><persName ref="#EA"> Emanuele Artom </persName></author>
+                            <title xml:lang="it"> Diario di Emanuele Artom </title>
+                            <textLang mainLang="it"> Italiano </textLang>
+                            <title type="sub"><date from="1943-11" to="1944-02-23"> novembre 1943 - 23 febbraio 1944 </date></title>
+                        </msItem>
+                    </msContents>
+                    <physDesc> 
+                        <objectDesc>
+                            <supportDesc material="paper" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html"> <!-- descrive il supporto fisico del manoscritto -->
+                                <support> 
+                                    <material> Fogli di carta </material>
+                                </support>    
+                                <extent> Il manoscritto è costituito da <num>173</num> pagine scritte a mano da <persName ref="#EA"> Emanuele Artom </persName> 
+                                </extent>
+                                <condition> 
+                                    <p> Le pagine sono in buone condizioni e ben leggibili anche con la presenza di sporadiche imperfezioni causate da sbiaditure e correzioni </p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote medium="black pencil" script="cursive"> 
+                                <p>Le prime <num>due</num> pagine del manoscritto sono scritte a mano da <persName ref="#AS"> Amalia Segre</persName>.</p>
+                            </handNote>
+                            <handNote medium="black pencil" script="cursive"> 
+                                <p>Tutta la rimanente parte del diario è stata scritta da<persName ref="#EA"> Emanuele Artom </persName></p>
+                            </handNote>
+                        </handDesc>
+                        <typeDesc> 
+                            <p> La stesura è stata effettuata principalmente con una matita, ad eccezione di alcune pagine scritte con l'inchiostro </p>                     
+                        </typeDesc>
+                    </physDesc>
+                
+                    <history> 
+                        <origin>
+                            <p>La scrittura del diario è avvenuta tra il <date when="1943-11">novembre 1943</date> e il <date when="1944-02-23">23 febbraio 1944</date>.</p>                      
+                        </origin>
+                        <acquisition>
+                            <p> 
+                            I diari di <persName ref="#EA">Emanuele Artom </persName> sono state donati alla Fondazione <orgName ref="#CDEC"> CDEC </orgName> su espressa volontà della madre <persName ref="#AS"> Amalia Segre </persName>
+                            </p>
+                        </acquisition>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+            </fileDesc>                  
+       
+
+    </teiHeader>
+
+
+ <facsimile>
+        <surface n="1" xml:id="artom165">
+			<graphic url='artom165.jpg' width='1024px' height='754px' />
+			<zone ulx="408" uly="50" lrx="474" lry="103" />
+			<!--numero pagina 15 in alto a sx:-->
+			<zone ulx="85" uly="101" lrx="665" lry="135" xml:id="p165r1" />
+			<!--1-->
+			<zone ulx="85" uly="140" lrx="664" lry="177" xml:id="p165r2" />
+			<!--2-->
+			<zone ulx="85" uly="181" lrx="667" lry="213" xml:id="p165r3" />
+			<!--3-->
+			<zone ulx="85" uly="216" lrx="946" lry="256" xml:id="p165r4" />
+			<!--4-->
+			<zone ulx="85" uly="258" lrx="592" lry="292" xml:id="p165r5" />
+            <!--5-->
+			<zone ulx="85" uly="296" lrx="592" lry="332" xml:id="p165r6" />
+            <!--6-->			
+			<zone ulx="85" uly="333" lrx="592" lry="366" xml:id="p165r7" />
+            <!--7-->			
+			<zone ulx="85" uly="372" lrx="592" lry="405" xml:id="p165r8" />
+            <!--8-->			
+			<zone ulx="85" uly="410" lrx="697" lry="442" xml:id="p165r9" />
+            <!--9-->	
+			<zone ulx="85" uly="447" lrx="678" lry="483" xml:id="p165r10" />
+            <!--10-->	
+			<zone ulx="85" uly="487" lrx="678" lry="523" xml:id="p165r11" />
+            <!--11-->	
+			<zone ulx="85" uly="524" lrx="592" lry="559" xml:id="p165r12" />
+            <!--12-->	
+			<zone ulx="85" uly="564" lrx="702" lry="601" xml:id="p165r13" />
+            <!--13-->	
+			<zone ulx="85" uly="600" lrx="592" lry="636" xml:id="p165r14" />
+            <!--14-->	
+			<zone ulx="85" uly="640" lrx="592" lry="674" xml:id="p165r15" />
+            <!--15-->	
+			<zone ulx="85" uly="678" lrx="687" lry="713" xml:id="p165r16" />
+            <!--16-->	
+			<zone ulx="85" uly="714" lrx="592" lry="751" xml:id="p165r17" />
+            <!--17-->
+			<zone ulx="85" uly="754" lrx="592" lry="794" xml:id="p165r18" />
+            <!--18-->
+			<zone ulx="85" uly="793" lrx="592" lry="831" xml:id="p165r19" />
+            <!--19-->
+			<zone ulx="85" uly="827" lrx="592" lry="869" xml:id="p165r20" />
+            <!--20-->
+			<zone ulx="85" uly="872" lrx="706" lry="906" xml:id="p165r21" />
+            <!--21-->
+			<zone ulx="85" uly="908" lrx="670" lry="952" xml:id="p165r22" />
+            <!--22-->	
+        </surface>
+
+        <surface n="2" xml:id="artom166">
+			<graphic url='artom166.jpg' width='1024px' height='754px' />
+			<zone ulx="80" uly="71" lrx="676" lry="102" xml:id="p166r1" />
+			<!--1-->
+			<zone ulx="80" uly="105" lrx="671" lry="135" xml:id="p166r2" />
+			<!--2-->
+			<zone ulx="80" uly="143" lrx="664" lry="179" xml:id="p166r3" />
+			<!--3-->
+			<zone ulx="80" uly="180" lrx="665" lry="206" xml:id="p166r4" />
+			<!--4-->
+			<zone ulx="85" uly="218" lrx="660" lry="250" xml:id="p166r5" />
+            <!--5-->
+			<zone ulx="85" uly="258" lrx="660" lry="299" xml:id="p166r6" />
+            <!--6-->			
+			<zone ulx="85" uly="292" lrx="660" lry="329" xml:id="p166r7" />
+            <!--7-->			
+			<zone ulx="85" uly="333" lrx="660" lry="369" xml:id="p166r8" />
+            <!--8-->			
+			<zone ulx="85" uly="370" lrx="660" lry="407" xml:id="p166r9" />
+            <!--9-->	
+			<zone ulx="85" uly="408" lrx="660" lry="443" xml:id="p166r10" />
+            <!--10-->	
+			<zone ulx="85" uly="446" lrx="660" lry="483" xml:id="p166r11" />
+            <!--11-->	
+			<zone ulx="85" uly="484" lrx="660" lry="521" xml:id="p167r12" />
+            <!--12-->	
+			<zone ulx="85" uly="524" lrx="660" lry="561" xml:id="p166r13" />
+            <!--13-->	
+			<zone ulx="85" uly="563" lrx="660" lry="597" xml:id="p166r14" />
+            <!--14-->	
+			<zone ulx="85" uly="600" lrx="660" lry="641" xml:id="p166r15" />
+            <!--15-->	
+			<zone ulx="85" uly="637" lrx="660" lry="673" xml:id="p166r16" />
+            <!--16-->	
+			<zone ulx="85" uly="674" lrx="660" lry="715" xml:id="p166r17" />
+            <!--17-->
+			<zone ulx="85" uly="717" lrx="660" lry="754" xml:id="p166r18" />
+            <!--18-->
+			<zone ulx="85" uly="754" lrx="660" lry="794" xml:id="p166r19" />
+            <!--19-->
+			<zone ulx="85" uly="791" lrx="660" lry="831" xml:id="p166r20" />
+            <!--20-->
+			<zone ulx="85" uly="830" lrx="660" lry="868" xml:id="p166r21" />
+            <!--21-->
+			<zone ulx="85" uly="910" lrx="660" lry="907" xml:id="p166r22" />
+            <!--22-->	
+        </surface>
+        <surface n="3" xml:id="artom167">
+			<graphic url='artom167.jpg' width='1024px' height='754px' />
+			<zone ulx="80" uly="70" lrx="660" lry="100" xml:id="p167_r1" />
+			<!--1-->
+			<zone ulx="80" uly="101" lrx="660" lry="137" xml:id="p167_r2" />
+			<!--2-->
+			<zone ulx="80" uly="140" lrx="660" lry="174" xml:id="p167_r3" />
+			<!--3-->
+			<zone ulx="80" uly="180" lrx="660" lry="210" xml:id="p167_r4" />
+			<!--4-->
+			<zone ulx="80" uly="217" lrx="660" lry="250" xml:id="p167_r5" />
+            <!--5-->
+			<zone ulx="80" uly="255" lrx="660" lry="290" xml:id="p167_r6" />
+            <!--6-->			
+			<zone ulx="80" uly="292" lrx="660" lry="330" xml:id="p167_r7" />
+            <!--7-->			
+			<zone ulx="80" uly="332" lrx="660" lry="365" xml:id="p167_r8" />
+            <!--8-->			
+			<zone ulx="80" uly="367" lrx="660" lry="404" xml:id="p167_r9" />
+            <!--9-->	
+			<zone ulx="80" uly="406" lrx="660" lry="442" xml:id="p167_r10" />
+            <!--10-->	
+			<zone ulx="80" uly="447" lrx="692" lry="483" xml:id="p167_r11" />
+            <!--11-->	
+			<zone ulx="80" uly="480" lrx="660" lry="520" xml:id="p167_r12" />
+            <!--12-->	
+			<zone ulx="80" uly="522" lrx="695" lry="560" xml:id="p167_r13" />
+            <!--13-->	
+			<zone ulx="80" uly="560" lrx="660" lry="600" xml:id="p167_r14" />
+            <!--14-->	
+			<zone ulx="80" uly="600" lrx="695" lry="635" xml:id="p167_r15" />
+            <!--15-->	
+			<zone ulx="80" uly="638" lrx="660" lry="673" xml:id="p167_r16" />
+            <!--16-->	
+			<zone ulx="80" uly="675" lrx="660" lry="711" xml:id="p167_r17" />
+            <!--17-->
+			<zone ulx="80" uly="712" lrx="660" lry="751" xml:id="p167_r18" />
+            <!--18-->
+			<zone ulx="80" uly="753" lrx="660" lry="790" xml:id="p167_r19" />
+            <!--19-->
+			<zone ulx="80" uly="792" lrx="660" lry="828" xml:id="p167_r20" />
+            <!--20-->
+			<zone ulx="80" uly="829" lrx="660" lry="865" xml:id="p167_r21" />
+            <!--21-->
+			<zone ulx="80" uly="868" lrx="660" lry="906" xml:id="p167_r22" />
+            <!--22-->	
+			<zone ulx="80" uly="909" lrx="660" lry="955" xml:id="p167_r23" />
+            <!--23-->	
+        </surface>
+ </facsimile>
+
+
+<text xml:lang="it"  xml:id="pagine" subtype="diario">
+    <body>
+        <div type="pagina" facs="pagina165" n="165">
+          <pb n="165" facs="artom165.jpg"/>
+
+            <p>
+            <lb facs="#p165_r1"/>
+            fino alla base di <unclear reason="uncertain">Rarà</unclear>. Ieri feci il mio compito di 
+            <lb facs="#p165_r2"/>
+            <unclear reason="illegible" cert="low" resp="author">classe</unclear>. Alla mattina un giovane mi procurò 
+            <del rend="overstrike">la</del> il
+            <lb facs="#p165_r3"/> 
+            lasciapassare ted da mettere accanto alla carta 
+            <lb facs="#p165_r4"/> 
+            di identità falsa. Poi salii alle basi del Sea, 
+            <lb facs="#p165_r5"/> 
+            <add place="below">di cui parlavo nei fogli bruciati</add> dove dis=
+            <lb facs="#p165_r6"/> 
+            tribuì manifesti e libri, diedi <num type="cardinal" value="300">300</num> lire <del rend="overstrike">a</del>
+            <lb facs="#p165_r7"/>
+            <del rend="overstrike">uno</del> come sussidio a un soldato povero, 
+            <lb facs="#p165_r8"/> 
+            parlai all’<unclear reason="handwriting"></unclear> guarnigione. E' avvenuto
+            <lb facs="#p165_r9"/> 
+            un fatto grave. <num type="cardinal" value="3">tre</num> hanno rubato. Compiuta
+            <lb facs="#p165_r10"/> 
+            l'istruttoria ho proposto a <persName>Mario</persName> di fare un solenne
+            <lb facs="#p165_r11"/> 
+            processo, con <num type="cardinal" value="2">due</num> soldati semplici membri <unclear reason="ink">della</unclear>
+            <lb facs="#p165_r12"/> 
+            commissione, per scopo educativo e istituire lo 
+            <lb facs="#p165_r13"/> 
+            Stato di popolo. Se saranno colpevoli, li condan= 
+            <lb facs="#p165_r14"/> 
+            neremo a morte mediante la fucilazione, e 
+            <lb facs="#p165_r15"/> 
+            commuteremo la pena in alcune ore di palo e
+            <lb facs="#p165_r16"/> 
+            nella privazione delle sigarette e dei premi
+            <lb facs="#p165_r17"/> 
+            in denaro per tutta la durata della
+            <lb facs="#p165_r18"/> 
+            guerra. Quando penso alle mie enormi in=
+            <lb facs="#p165_r19"/> 
+            prudenze dell'altro giorno, mi pare 
+            <lb facs="#p165_r20"/> 
+            di non meritarmi la libertà che ora godo.
+            <lb facs="#p165_r21"/> 
+            Ho portato in giro per il paese <gap reason="cancelled"></gap> stampati e sopratutto
+            <lb facs="#p165_r22"/> 
+            <gap reason="cancelled"> </gap> manoscritti compromettenti, sono uscito vestito da 
+            </p>
+            
+        </div>
+        <div type="pagina" facs="pagina166" n="166" >
+                  <pb n="166" facs="artom166.jpg"/>
+            <p>
+            <lb facs="#p166_r1"/> 
+            montagna, <del rend="overstrike">anzi</del> cioè in divisa da partigiano, sono andato
+            <lb facs="#p166_r2"/> 
+            in un albergo equivoco, dove mi avevano raccomandato
+            <lb facs="#p166_r3"/> 
+            di stare lontano, ho scritto tranquillamente durante
+            <lb facs="#p166_r4"/> 
+            il pranzo le mie memorie. Sciochezze spaventosamente
+            <lb facs="#p166_r5"/> 
+            gravi per uno che ha rappresentabilità politiche <gap reason="cancelled"></gap>.
+            <lb facs="#p166_r6"/> 
+            Ora per qualche settimana la paura mi farà stare 
+            <lb facs="#p166_r7"/> 
+            attento, ma poi <gap reason="cancelled"></gap>bisognerà continuare ad essere
+            <lb facs="#p166_r8"/> 
+            prudenti. Furioso che ora quando vado in campagna, 
+            <lb facs="#p166_r9"/> 
+            tutte le volte che vedo un ponticello, penso: <q>chissà
+            <lb facs="#p166_r10"/> 
+            se la sotto sarebbe utile nascondersi?</q> Nel pomeriggio
+            <lb facs="#p166_r11"/> 
+            di ieri scrissi una relazione di <num type="cardinal" value="8">8</num> pagine fitte
+            <lb facs="#p166_r12"/> 
+            sulla storia delle bande di <sic>Barga</sic>,      
+            <lb facs="#p166_r13"/> 
+            dal partito d'<abbr>A.</abbr> per un volume sul movimento
+            <lb facs="#p166_r14"/> 
+            partigiano. Ad un certo momento trasalii
+            <lb facs="#p166_r15"/> 
+            per lo scoppio di una bomba a mano nella valle.
+            <lb facs="#p166_r16"/> 
+            A terra c'è un vivo fermento. Dopo il ferimento
+            <lb facs="#p166_r17"/> 
+            del generale <persName><unclear reason="illegible" cert="low" resp="author">Fallà</unclear></persName>, <del rend="overstrike" hand="author">capo dei sold</del> comandante
+            <lb facs="#p166_r18"/> 
+            dei soldati repubblicani in <placeName type="region" subtype="administrative">Piemonte</placeName> e <placeName type="region" subtype="administrative">Liguria</placeName>,
+            <lb facs="#p166_r19"/> 
+            dopo l'affissione di manifesti del <orgName>Fronte<abbr>Naz.</abbr></orgName>, 
+            <lb facs="#p166_r20"/> 
+            orde di fascisti scorrazzano in <unclear reason="illegible" cert="low" resp="author">cammino</unclear>
+            <lb facs="#p166_r21"/> 
+            giù per la valle, hanno fatto chiudere i locali
+            <lb facs="#p166_22"/> 
+            pubblici e posto il coprifuoco alle <num type="time" value="18:00">6</num> di sera,
+            </p>
+        </div>
+
+        <div type="pagina" facs="pagina167" n="167">
+                  <pb n="167" facs="artom167.jpg"/>
+
+            <p>
+            <lb facs="#p167_r1"/> 
+            Oggi mi portai a <unclear reason="uncertain">Rarà</unclear>.<gap reason="cancelled"></gap> Gli acquartie
+            <lb facs="#p167_r2"/> 
+            <unclear reason="uncertain">ramenti</unclear> più comodi perché ci sono <del rend="overstrike" hand="author">sale</del> camere da 
+            <lb facs="#p167_r3"/> 
+            pranzo e di ritrovo. Ho parlato ai soldati
+            <lb facs="#p167_r4"/> 
+            della situazione dell'<placeName type="country">Italia</placeName> meridionale secondo
+            <lb facs="#p167_r5"/> 
+            quanto riferì <persName><unclear reason="uncertain">Nada</unclear></persName> l'altro giorno; poi pensai a un
+            <lb facs="#p167_r6"/> 
+            discorso piuttosto demagogico <gap reason="cancelled"></gap> contro le
+            <lb facs="#p167_r7"/> 
+            <orgName>forze Badogliane</orgName>: vorrei che i soldati delle                              
+            <lb facs="#p167_r8"/> 
+            bande di <persName>Badoglio</persName> venissero qui a vedere       
+            <lb facs="#p167_r9"/> 
+            come vivete voi: loro che stanno sull'attenti
+            <lb facs="#p167_r10"/> 
+            davanti agli ufficiali e vivono come nel
+            <lb facs="#p167_r11"/> 
+            vecchio esercito dove il soldato lavorava e aveva
+            <lb facs="#p167_r12"/> 
+            una lira al giorno, l'ufficiale comandava e
+            <lb facs="#p167_r13"/> 
+            ne aveva <num type="cardinal" value="50">50</num>. Infine parlai del problema agrario
+            <lb facs="#p167_r14"/> 
+            e dissi che solo la repubblica può risolverlo,
+            <lb facs="#p167_r15"/> 
+            perché il re, grande latifondista, si opporrebbe
+            <lb facs="#p167_r16"/> 
+            a una soluzione integrale. Seguì una breve
+            <lb facs="#p167_r17"/> 
+            discussione con qualche soldato. La prossima
+            <lb facs="#p167_r18"/> 
+            conversazione voglio condurla sulle carceri,
+            <lb facs="#p167_r19"/> 
+            argomento psicologicamente interessante per i
+            <lb facs="#p167_r20"/> 
+            soldati e atto a farli pensare. Ieri sera
+            <lb facs="#p167_r21"/> 
+            andando a letto, <persName>Silvio</persName> mi diceva che <add>non</add> si illude
+            <lb facs="#p167_r22"/> 
+            sull'efficacia della propaganda politica e
+            <lb facs="#p167_r23"/> 
+            aggiungeva: <q>forse anche tu sai. Delusioni</q>  
+            </p>     
+        </div>
+    </body>
+        <back>
+            <div>
+ <!-- Bibliografia -->
+            <listBibl>
+                <head>Bibliografia</head>
+                <bibl xml:id="bibl1" source="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/diari.html" > 
+                            <title>Diari di un partigiano ebreo</title>
+                            <author>
+                                <persName ref="#GSC">
+                                    <forename>Guri</forename> 
+                                    <surname>Schwarz</surname>
+                                </persName>
+                            </author>
+                            <pubPlace><placeName ref="#TO">Torino</placeName></pubPlace>
+                            <date when="2008">2008</date>
+                            <publisher>Bollati Boringhieri</publisher>
+                </bibl>
+                <bibl xml:id="bibl2" source="http://digital-library.cdec.it/cdec-web/biblioteca/detail/book-CDEC10300010978/la-moralit-224-armata-studi-emanuele-artom-1915-1944.html" > 
+                            <title>La moralità armata. Studi su Emanuele Artom</title>
+                            <author>
+                                <persName ref="#AC">
+                                    <forename>Alberto</forename> 
+                                    <surname>Cavaglion</surname>
+                                </persName>
+                            </author>
+                            <pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
+                            <date when="1993">1993</date>
+                            <publisher>Franco Angeli</publisher>
+                </bibl>
+                <bibl xml:id="bibl3" source="https://archive.org/details/artom_diari_1966_images" > 
+                            <title>La moralità armata. Studi su Emanuele Artom</title>
+                            <author>
+                                <persName ref="#PDB">
+                                    <forename>Paola</forename> 
+                                    <surname>De Benedetti</surname>
+                                </persName>
+                                <persName ref="#ER"> 
+                                    <forename>Eloisa</forename> 
+                                    <surname>Ravenna</surname>
+                                </persName>
+                            </author>
+                            <pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
+                            <date when="1966">1966</date>
+                            <publisher ref="#CDEC">CDEC - Centro di Documentazione Ebraica Contemporanea</publisher>
+                </bibl>
+                <bibl xml:id="bibl4" source="https://www.museotorino.it/view/s/23367913251740a8b38dd89e8f19ba12" > 
+                            <title>Tre vite dall'ultimo '800 alla metà del '900. Studi e memorie di Emilio, Emanuele, Ennio Artom</title>
+                            <author>
+                                <persName ref="#BT">
+                                    <forename>Benvenuta</forename> 
+                                    <surname>Treves</surname>
+                                </persName>
+                            </author>
+                            <pubPlace><placeName ref="#FI">Firenze</placeName></pubPlace>
+                            <date when="1954">1954</date>
+                            <publisher>Israel</publisher>
+                </bibl>
+                <bibl xml:id="bibl5" source="https://www.cdec.it/wp-content/uploads/2021/04/EloisaCDEC.pdf" > 
+                            <title>Eloisa e il CDEC</title>
+                            <author>
+                                <persName ref="#LPF">
+                                    <forename>Liliana</forename> 
+                                    <surname>Picciotto Fargion</surname>
+                                </persName>
+                            </author>
+                            <pubPlace><placeName ref="#MI">Milano</placeName></pubPlace>
+                            <date from="1981-01--" to="1981-06--"> Gennaio - Giugno 1981 </date>
+                            <publisher>Israel</publisher>
+                </bibl>
+            </listBibl>    
+        </div>                    
+        </back> 
+    </text>
+</TEI>

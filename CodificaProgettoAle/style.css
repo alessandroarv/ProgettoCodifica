@@ -1,0 +1,127 @@
+style.css
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #000000;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(216, 203, 21);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+nav.menu a:hover {
+    color: #ffffff;
+}
+
+
+
+/* Stili per il contenuto principale */
+main {
+    background: #8b2323;
+}
+
+.galleria .img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.galleria .prev { 
+text-align: center;
+margin-left: 37%;
+margin-top: 30px;
+width: 60px; 
+height: 50px; 
+cursor: pointer; 
+} 
+
+.galleria .next { 
+margin-left: 200px;
+margin-top: 30px;
+width: 60px; 
+height: 50px; 
+cursor: pointer;
+}
+
+.paragrafo {
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: rgba(201, 201, 201);
+    text-align: left;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.6875;
+    color: rgb(0, 0, 0);
+    border: 4px rgb(71, 66, 66) solid;
+    border-radius: 30px; 
+    padding: 15px; 
+
+}
+
+.img img {
+    cursor: pointer;
+}
+
+/* Stili per le tabelle */
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list td {
+    padding: 8px;
+}
+
+
+/* Stili per le intestazioni delle sezioni */
+section h2 {
+    color: #000000;
+    padding: 0.5%;
+}
+
+#legenda,
+#trascrizione {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.img:not(:first-child) {
+    display: none;
+}
+
+.footer {
+    color: rgb(165, 99, 0);
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5%;
+    background: rgba(45, 213, 255, 0.801);
+    border-top: 4px rgb(58, 54, 54) solid;
+}
+
+
+
+
